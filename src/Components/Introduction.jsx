@@ -11,13 +11,13 @@ export default function Introduction() {
       {/* introduction part */}
       <div className="w-full sm:w-[52%] flex justify-center items-center md:justify-center p-2 ">
         <div className=" w-[70%] sm:w-[80%] md:w-[70%] lg:w-[50%] flex flex-col items-center justify-center sm:items-start px-0 pt-6 sm:px-0 sm:gap-4 md:gap-2 text-lg">
-          <p className="text-2xl sm:text-2xl md:text-3xl italic font-light">
+          <p className="text-2xl sm:text-2xl md:text-3xl italic font-light hover:drop-shadow-custom-gray">
             Hi, I am
           </p>
-          <p className="text-4xl sm:text-5xl md:text-6xl italic font-bold">
+          <p className="text-4xl sm:text-5xl md:text-6xl italic font-bold hover:drop-shadow-custom-gray">
             Enayatullah
           </p>
-          <p className="text-xl md:text-2xl italic font-light">
+          <p className="text-xl md:text-2xl italic font-light hover:drop-shadow-custom-gray">
             front-end developer
           </p>
           <br />
@@ -28,7 +28,7 @@ export default function Introduction() {
       </div>
 
       {/* image section */}
-      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center">
+      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center cursor-pointer">
         <img
           src={profilePic}
           alt="profile-pic"
