@@ -5,7 +5,7 @@ import profilePic from "/profile-pic2.png";
 export default function Introduction() {
   return (
     <div
-      className="w-[100vw] h-auto sm:h-[12%] md:h-[22%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth pt-4"
+      className="w-[100vw] h-auto sm:h-[17%] md:h-[32%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth pt-4"
       id="home"
     >
       {/* introduction part */}
@@ -32,7 +32,6 @@ export default function Introduction() {
         <img
           src={profilePic}
           alt="profile-pic"
-          // drop-shadow(2px 4px 8px hsla(0deg, 0%, 0%, 0.5))
           className="w-[50%] h-auto sm:w-full md:size-96 rounded-[10%] lg:rounded-[50%] drop-shadow-custom-gray"
         />
       </div>
