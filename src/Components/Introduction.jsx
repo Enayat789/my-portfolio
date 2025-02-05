@@ -5,12 +5,12 @@ import profilePic from "/profile-pic2.png";
 export default function Introduction() {
   return (
     <div
-      className="w-[100vw] h-auto sm:h-[17%] md:h-[32%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth pt-4"
+      className="w-[100vw] h-auto sm:h-[17%] bg-red-300 md:h-[32%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth pt-4"
       id="home"
     >
       {/* introduction part */}
-      <div className="w-full sm:w-[52%] flex justify-center items-center md:justify-center p-2 ">
-        <div className=" w-[70%] sm:w-[80%] md:w-[70%] lg:w-[50%] flex flex-col items-center justify-center sm:items-start px-0 pt-6 sm:px-0 sm:gap-4 md:gap-2 text-lg">
+      <div className="w-full sm:w-[52%] bg-green-300 flex justify-center items-center md:justify-center p-2 ">
+        <div className=" w-[70%] sm:w-[80%] bg-yellow-200 md:w-[85%] lg:w-[80%] xl:max-w-[80%] flex flex-col items-center justify-center sm:items-start px-0 pt-6 sm:px-0 sm:gap-4 md:gap-2 text-lg">
           <p className="text-2xl sm:text-2xl md:text-3xl italic font-light hover:drop-shadow-custom-gray">
             Hi, I am
           </p>
@@ -28,7 +28,7 @@ export default function Introduction() {
       </div>
 
       {/* image section */}
-      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center cursor-pointer">
+      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center cursor-pointer px-4">
         <img
           src={profilePic}
           alt="profile-pic"
