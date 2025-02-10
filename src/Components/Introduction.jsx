@@ -29,7 +29,7 @@ export default function Introduction() {
       </div>
 
       {/* image section */}
-      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center cursor-pointer px-4">
+      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center xl:justify-end cursor-pointer px-4">
         <img
           src={profilePic}
           alt="profile-pic"

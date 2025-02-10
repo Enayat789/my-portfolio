@@ -1,9 +1,10 @@
 import React from "react";
 
 export default function About() {
-  // bg-gradient-to-r from-violet-200 to-pink-200
+  // bg-gradient-to-r from-slate-300 to-slate-500
+  // from-gray-300 to-pink-200
   return (
-    <div className="w-full flex flex-col gap-8 py-12 px-6 bg-gradient-to-r from-gray-300 to-pink-200">
+    <div className="w-full flex flex-col gap-8 py-12 px-6 bg-gradient-to-r from-slate-400 to-slate-300">
       <div className="w-full max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 uppercase tracking-wide relative">
           About Me
