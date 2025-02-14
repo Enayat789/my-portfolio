@@ -5,7 +5,7 @@ import profilePic from "/profile-pic2.png";
 export default function Introduction() {
   return (
     <div
-      className="w-[100vw] max-w-6xl h-auto m-auto sm:h-[17%] md:h-[32%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth pt-4"
+      className="w-[100vw] max-w-6xl h-auto m-auto sm:h-[17%] md:h-[24%] lg:h-[27%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth py-4"
       id="home"
     >
       {/* introduction part */}
