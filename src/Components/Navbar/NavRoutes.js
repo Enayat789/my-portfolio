@@ -8,7 +8,7 @@ const NavRoutes = [
     href: "#",
   },
   {
-    title: "Portfolio",
+    title: "Projects",
     href: "#",
   },
 ];
