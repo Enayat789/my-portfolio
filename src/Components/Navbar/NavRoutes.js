@@ -1,6 +1,6 @@
 const NavRoutes = [
   {
-    title: "About me",
+    title: "About",
     href: "#",
   },
   {

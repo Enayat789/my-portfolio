@@ -1,11 +1,11 @@
 import React from "react";
 // import profilepic from "/profilepic.png";
-import profilePic from "/profile-pic2.png";
+import myPic from "/black-img.png";
 
 export default function Introduction() {
   return (
     <div
-      className="w-[100vw] max-w-6xl h-auto m-auto sm:h-[17%] md:h-[24%] lg:h-[27%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth py-4"
+      className="w-[100vw] max-w-6xl h-auto m-auto sm:h-[17%] md:h-[24%] lg:h-[27%] flex flex-col-reverse sm:flex-row justify-center items-center scroll-smooth py-8"
       id="home"
     >
       {/* introduction part */}
@@ -29,12 +29,33 @@ export default function Introduction() {
       </div>
 
       {/* image section */}
-      <div className="sm:w-[48%] w-full sm:h-full flex justify-center items-center xl:justify-end cursor-pointer px-4">
+      <div className="sm:w-[48%] w-full h-full sm:h-full flex justify-center items-center xl:justify-end cursor-pointer px-4 relative">
+        <div className="absolute -z-10 inset-0 h-full w-full bg-[linear-gradient(to_right,#80808018_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] opacity-90"></div>
+
+        {/* Traingle image in the background */}
         <img
-          src={profilePic}
-          alt="profile-pic"
-          className="w-[50%] h-auto sm:w-full md:size-96 rounded-[10%] lg:rounded-[50%] drop-shadow-custom-gray"
+          src="Rectangle 4.png"
+          alt="Background"
+          className="absolute -z-10 left-9 w-full h-full object-cover opacity-60"
         />
+
+        <img
+          src="Rectangle5.png"
+          alt="Background"
+          className="absolute -z-10 left-9 w-full h-full object-cover opacity-60"
+        />
+
+        {/* <img
+            src={myPic}
+            alt="profile-pic"
+            className="w-[50%] h-full sm:w-full md:size-96 drop-shadow-custom-gray"
+          /> */}
+        <img
+          src={myPic}
+          alt="profile-pic"
+          className="w-[70%] sm:w-full md:size-96 mt-6 sm:mt-0"
+        />
+        {/* drop-shadow-custom-gray */}
       </div>
     </div>
   );
