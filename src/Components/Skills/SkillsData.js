@@ -4,10 +4,14 @@ import jsIcon from "/js-icon.png";
 import reactIcon from "/react-icon.png";
 import gitIcon from "/git-icon.png";
 import tailwindIcon from "/tailwindIcon.png";
+import fireBase from "/firebase.png";
+import nextJs from "/nextjs.png";
+import cLang from "/c.png";
+import cPlus from "/c++.png";
 
 const mySkills = [
   {
-    name: "HTML5",
+    name: "HTML",
     icon: htmlIcon,
   },
   {
@@ -27,24 +31,24 @@ const mySkills = [
     icon: gitIcon,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     icon: tailwindIcon,
   },
   {
-    name: "Git",
-    icon: gitIcon,
+    name: "Next js",
+    icon: nextJs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwindIcon,
+    name: "Firebase",
+    icon: fireBase,
   },
   {
-    name: "Git",
-    icon: gitIcon,
+    name: "C",
+    icon: cLang,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwindIcon,
+    name: "C++",
+    icon: cPlus,
   },
 ];
 

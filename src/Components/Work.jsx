@@ -3,41 +3,14 @@ import React from "react";
 export default function Work() {
   return (
     <div className="w-full flex flex-col gap-8 py-12 px-6 ">
-      <div className="w-full max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 uppercase tracking-wide relative">
-          work
-          <span className="block w-16 h-1 bg-gradient-to-r from-blue-400 to-indigo-600 rounded-full mt-1"></span>
-        </h2>
+      <div className="w-full flex max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto items-center">
+        <button className="bg-gradient-to-r from-gray-950 to-gray-900 border-indigo-800 border-spacing-2">
+          Projects
+        </button>
+        <span className="block w-44 h-1 bg-gradient-to-r from-blue-600 to-indigo-900 rounded-r-lg mt-1"></span>
       </div>
 
       <div className="w-full max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto">
-        {/* <p className="text-lg sm:text-xl md:text-2xl font-light text-gray-700 leading-relaxed">
-          In this section, I’ve highlighted my experience in building dynamic,
-          responsive web applications using modern frontend technologies.
-          Whether it's freelance projects, personal initiatives, or
-          collaborative work, each entry showcases my ability to create
-          user-focused solutions with React.js, JavaScript, Tailwind CSS, and
-          more.
-        </p> */}
-        {/* <p className="text-lg sm:text-xl md:text-2xl font-light text-gray-700 leading-relaxed">
-          I have experience in building{" "}
-          <span className="font-medium text-gray-900">
-            dynamic, responsive web applications
-          </span>
-          using modern frontend technologies. From{" "}
-          <span className="font-medium">freelance projects</span> to
-          <span className="font-medium"> collaborative work</span>, each project
-          highlights my ability to create
-          <span className="font-semibold text-blue-600">
-            {" "}
-            user-focused solutions
-          </span>{" "}
-          with
-          <span className="font-bold text-indigo-700"> React.js</span>,
-          <span className="font-bold text-blue-600"> JavaScript</span>, and
-          <span className="font-bold text-indigo-700"> Tailwind CSS</span>.
-        </p> */}
-
         <p className="text-lg sm:text-xl md:text-2xl font-light text-gray-700 leading-relaxed">
           In this section, I’ve highlighted my experience in building
           <span className="font-semibold text-gray-900">
