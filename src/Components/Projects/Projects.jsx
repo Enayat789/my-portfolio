@@ -7,7 +7,7 @@ const Projects = () => {
       {ProjectsData.map((data, index) => (
         <div
           key={index}
-          className="w-auto h-auto sm:w-[90%] sm:h-auto md:w-[47%] lg:max-w-2xl xl:w-[30%] bg-gradient-to-r from-gray-300 to-gray-100 pt-2 pb-3 flex flex-col items-center justify-around shadow-2xl rounded-lg border border-gray-100 hover:border-gray-200"
+          className="w-auto h-auto sm:w-[90%] sm:h-auto md:w-[47%] lg:max-w-2xl xl:w-[30%] pt-2 pb-3 flex flex-col items-center justify-around shadow-2xl rounded-lg border border-gray-100 hover:border-gray-200"
         >
           <div className="bg-gray-200 w-[95%] h-[50%] flex items-center justify-center border rounded-lg cursor-pointer">
             <a href={data.links.demo} target="_blank">

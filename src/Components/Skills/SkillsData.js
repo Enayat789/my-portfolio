@@ -30,6 +30,22 @@ const mySkills = [
     name: "Tailwind CSS",
     icon: tailwindIcon,
   },
+  {
+    name: "Git",
+    icon: gitIcon,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwindIcon,
+  },
+  {
+    name: "Git",
+    icon: gitIcon,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwindIcon,
+  },
 ];
 
 export default mySkills;
