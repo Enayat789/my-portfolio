@@ -1,6 +1,6 @@
 import React from "react";
 // import profilepic from "/profilepic.png";
-import myPic from "/straight-black.png";
+import myPic from "/black-img.png";
 
 export default function Introduction() {
   return (

@@ -1,8 +1,4 @@
-import React from "react";
-
 export default function About() {
-  // bg-gradient-to-r from-slate-300 to-slate-500
-  // from-gray-300 to-pink-200
   return (
     <div className="w-full h-auto flex flex-col gap-8 py-12 px-6">
       {/* <span className="block w-[20%] h-1 bg-gradient-to-r from-blue-400 to-indigo-600 rounded-full mt-0"></span> */}
