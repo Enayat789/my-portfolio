@@ -4,22 +4,24 @@ export default function About() {
       {/* <span className="block w-[20%] h-1 bg-gradient-to-r from-blue-400 to-indigo-600 rounded-full mt-0"></span> */}
 
       <div className="w-full flex max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto items-center">
-        <button className="bg-gradient-to-r from-gray-950 to-gray-900 border-indigo-800 border-spacing-2">
-          About Me
-        </button>
-        <span className="block w-44 h-1 bg-gradient-to-r from-blue-600 to-indigo-900 rounded-r-lg mt-1"></span>
+        <div className=" p-0.5 rounded-lg bg-gradient-to-r from-pink-500 to-indigo-700">
+          <button className="bg-gradient-to-r p-2 px-3 rounded-lg from-gray-950 to-gray-900">
+            About Me
+          </button>
+        </div>
+        <span className="block w-44 h-1 bg-gradient-to-r from-indigo-700 to-pink-500 rounded-r-lg mt-1"></span>
       </div>
 
       {/* Content Section */}
       <div className="w-full max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto">
         <p className="text-lg sm:text-xl md:text-2xl font-light text-gray-300 leading-relaxed">
           I'm a passionate{" "}
-          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-indigo-700">
+          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-700">
             Frontend Developer{" "}
           </span>
           dedicated to crafting modern, sleek, and intuitive web applications.
           With expertise in
-          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-indigo-800">
+          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-700">
             {" "}
             React.js, JavaScript, HTML, CSS, and Tailwind CSS
           </span>
@@ -28,7 +30,7 @@ export default function About() {
 
         <p className="mt-6 text-lg sm:text-xl md:text-2xl font-light text-gray-300 leading-relaxed">
           Currently, I'm expanding my skills in
-          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-700">
+          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-700">
             {" "}
             Next.js
           </span>

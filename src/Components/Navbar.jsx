@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="w-[80vw] m-auto bg-gradient-to-r from-gray-950 to-gray-900 flex justify-between items-center px-6 sm:px-8 py-3 mt-2 rounded-lg border border-gray-600">
       {/* Logo */}
-      <h2 className="cursor-pointer text-white text-xl sm:text-2xl font-serif font-bold italic">
+      <h2 className="cursor-pointer text-pink-400 text-xl sm:text-2xl font-serif font-bold italic">
         ENAYAT
       </h2>
 

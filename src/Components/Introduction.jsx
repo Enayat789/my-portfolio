@@ -14,16 +14,16 @@ export default function Introduction() {
           <p className="text-2xl sm:text-2xl md:text-3xl italic font-light hover:drop-shadow-custom-gray">
             Hi, I am
           </p>
-          <p className="text-4xl sm:text-5xl md:text-6xl italic font-bold hover:drop-shadow-custom-gray">
+          <p className="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-indigo-700 sm:text-5xl md:text-6xl italic font-bold ">
             Enayatullah
           </p>
           <p className="text-xl md:text-2xl italic font-light hover:drop-shadow-custom-gray">
             front-end developer
           </p>
           <br />
-          <p className="flex flex-col text-2xl italic font-extralight cursor-pointer items-start group">
-            Contact Me
-            <span className="block w-16 h-1 bg-gradient-to-r from-blue-900 to-indigo-600 rounded-full transition-all duration-500 ease-in-out group-hover:w-28"></span>
+          <p className="flex flex-col text-xl italic font-extralight cursor-pointer items-start group">
+            GET RESUME
+            <span className="block w-16 h-1 bg-gradient-to-r from-pink-500 to-indigo-700 rounded-full transition-all duration-500 ease-in-out group-hover:w-28"></span>
           </p>
         </div>
       </div>
@@ -55,7 +55,7 @@ export default function Introduction() {
           alt="profile-pic"
           className="w-[70%] h-full sm:w-full md:size-96 lg:h-full mt-6 sm:mt-0"
         />
-        <span className="block w-[69%] h-1 bg-gradient-to-r from-indigo-950 to-indigo-600 rounded-full mt-0"></span>
+        <span className="block w-[69%] h-1 bg-gradient-to-r  from-pink-500 to-indigo-700 rounded-full mt-0"></span>
 
         {/* drop-shadow-custom-gray */}
       </div>
