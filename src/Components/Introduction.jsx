@@ -1,6 +1,6 @@
 import React from "react";
-// import profilepic from "/profilepic.png";
 import myPic from "/black-img.png";
+// import { FaDownload } from "react-icons/fa6";
 
 export default function Introduction() {
   return (

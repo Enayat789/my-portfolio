@@ -14,34 +14,23 @@ export default function About() {
 
       {/* Content Section */}
       <div className="w-full max-w-6xl sm:pl-6 lg:pl-12 xl:pl-0 mx-auto">
-        <p className="text-lg sm:text-xl md:text-2xl font-light text-gray-300 leading-relaxed">
-          I'm a passionate{" "}
-          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-700">
-            Frontend Developer{" "}
-          </span>
-          dedicated to crafting modern, sleek, and intuitive web applications.
-          With expertise in
-          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-700">
-            {" "}
-            React.js, JavaScript, HTML, CSS, and Tailwind CSS
-          </span>
-          , I focus on creating seamless user experiences.
-        </p>
-
-        <p className="mt-6 text-lg sm:text-xl md:text-2xl font-light text-gray-300 leading-relaxed">
-          Currently, I'm expanding my skills in
-          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-700">
-            {" "}
-            Next.js
-          </span>
-          , allowing me to develop even more scalable and high-performance web
-          solutions.
+        <p className="text-lg sm:text-xl md:text-2xl font-light text-white leading-relaxed">
+          I'm Enayatullah, a self-motivated and incredibly flexible programmer
+          with a focus on full-stack web development. JavaScript is my primary
+          area of expertise, and it forms the basis of the effective and
+          significant applications I create. I love taking on challenging issues
+          and coming up with solutions that produce practical, approachable, and
+          intuitive online experiences. My ability to pick things up quickly and
+          my proactive approach to new technologies are my main advantages; they
+          allow me to easily integrate and become proficient with a variety of
+          tools and frameworks. I'm actively looking for interesting
+          opportunities to use my abilities and spur additional development.
         </p>
       </div>
 
       {/* Accent Line */}
       <div className="w-full flex justify-end max-w-6xl mx-auto sm:pl-6 lg:pl-12 xl:pl-0">
-        <div className="w-20 sm:w-24 md:w-32 lg:w-1/2 h-1 bg-gradient-to-r from-indigo-950 to-indigo-600 rounded-full shadow-md"></div>
+        <div className="w-20 sm:w-24 md:w-32 lg:w-1/2 h-1 bg-gradient-to-r from-pink-500 to-indigo-700 rounded-full shadow-md"></div>
       </div>
     </div>
   );

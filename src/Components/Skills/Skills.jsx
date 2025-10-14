@@ -11,9 +11,11 @@ const Skills = () => {
           alt="background circle"
           className="absolute w-auto h-auto m-auto object-cover opacity-60"
         />
-        <button className="bg-gradient-to-r from-gray-950 to-gray-900 border-indigo-800 border-spacing-2 z-10">
-          My Skillls
-        </button>
+        <div className=" p-0.5 rounded-lg bg-gradient-to-r from-pink-500 to-blue-700 z-10">
+          <button className="bg-gradient-to-r from-gray-950 to-gray-900 border-indigo-800 border-spacing-2 ">
+            My Skillls
+          </button>
+        </div>
       </div>
 
       {/* <div className="w-full bg-red-300 h-auto max-w-6xl flex flex-wrap gap-4 items-center justify-center md:justify-evenly sm:pl-6 lg:pl-12 xl:pl-0 mx-auto"> */}
@@ -27,7 +29,10 @@ const Skills = () => {
             >
               {/* <div className="w-24 h-24 flex flex-col justify-center items-center cursor-pointer transform transition-transform duration-500 translate-y-3 p-2 border border-indigo-800 border-spacing-2 "> */}
               <div className="w-auto h-auto p-4 sm:w-24 sm:h-24 lg:w-32 lg:h-32 flex items-center justify-center cursor-pointer bg-gradient-to-r from-gray-950 to-gray-900 border-indigo-800 border border-spacing-2 rounded-2xl">
-                <img src={skill.icon} className=" w-16 h-w-16 object-contain rounded-xl" />
+                <img
+                  src={skill.icon}
+                  className=" w-16 h-w-16 object-contain rounded-xl"
+                />
               </div>
 
               <span className="font-bold text-xl">{skill.name}</span>
