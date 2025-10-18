@@ -1,15 +1,15 @@
 const NavRoutes = [
   {
     title: "About",
-    href: "#",
+    href: "#about",
   },
   {
     title: "Skills",
-    href: "#",
+    href: "#skills",
   },
   {
     title: "Projects",
-    href: "#",
+    href: "#projects",
   },
 ];
 

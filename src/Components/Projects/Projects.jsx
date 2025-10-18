@@ -3,7 +3,10 @@ import ProjectsData from "./ProjectsData";
 
 const Projects = () => {
   return (
-    <div className="w-full relative h-auto flex flex-col md:flex-row items-center justify-evenly py-8 gap-10">
+    <div
+      id="projects"
+      className="w-full relative h-auto flex flex-col md:flex-row items-center justify-evenly py-8 gap-10"
+    >
       {ProjectsData.map((data, index) => (
         <div
           className="relative overflow-hidden w-full sm:w-[90%] md:w-[47%] lg:max-w-2xl xl:w-[30%] rounded-lg flex items-center justify-center"

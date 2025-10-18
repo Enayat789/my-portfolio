@@ -55,7 +55,7 @@ export default function Introduction() {
           alt="profile-pic"
           className="w-[70%] h-full sm:w-full md:size-96 lg:h-full mt-6 sm:mt-0"
         />
-        <span className="block w-[69%] h-1 bg-gradient-to-r  from-pink-500 to-indigo-700 rounded-full mt-0"></span>
+        <span className="block w-[69%] h-0.5 bg-gradient-to-r  from-pink-500 to-indigo-700 rounded-full mt-0"></span>
 
         {/* drop-shadow-custom-gray */}
       </div>

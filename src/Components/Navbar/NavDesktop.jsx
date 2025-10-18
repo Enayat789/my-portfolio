@@ -7,7 +7,12 @@ const NavDesktop = () => {
       <ul className="flex md:w-[70%] justify-evenly space-x-6 md:space-x-8  font-bold">
         {NavRoutes.map((link, index) => (
           <li key={index}>
-            <a className="cursor-pointer hover:text-indigo-600">{link.title}</a>
+            <a
+              href={link.href}
+              className="cursor-pointer hover:text-indigo-600"
+            >
+              {link.title}
+            </a>
           </li>
         ))}
       </ul>
